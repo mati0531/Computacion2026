@@ -1,0 +1,142 @@
+* {
+    font-family: "Space Mono", monospace;
+    text-wrap: balance;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(19, 20, 18);
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(6, 5, 116);
+    font-size: 2.5rem;
+    line-height: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;    
+}
+
+main {
+width: 100%;
+max-width: 900px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+header {
+    text-align: center;
+}
+
+.navbar {
+    font-family: "Space Mono", monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+nav a {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-size: 14px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 1.9vh;
+}
+
+.nombre h1 {
+    color: #c0c0c0;
+    font-weight: 500;
+    line-height: 3rem;
+    font-size: 40px;
+    color: #ff0202;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.nombre h2 {
+    color: #c0c0c0;
+    font-weight: 100;
+    font-size: 1.7vh;
+    color: #18ad04;
+}
+
+.nombre {
+    margin: 2rem;
+}
+
+.perfil {
+    margin: 2rem;
+    color: #c0c0c0;
+}
+
+.experiencia {
+    margin: 2rem;
+    color: #c0c0c0;
+}
+
+.habilidades {
+    margin: 2rem;
+    color: #c0c0c0;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    color: #c0c0c0;
+}
+
+.perfil h3 {
+    color: #c0c0c0;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.perfil p {
+    color: #c0c0c0;
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+
+.experiencia h3 {
+    color: #c0c0c0; 
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.experiencia h4 {
+    color: #c0c0c0;    
+    font-weight: 700;
+}
+
+.experiencia p {
+    color: #c0c0c0;
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+
+.titulos {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.linea {
+    width: 100%;
+    max-width: 900px;
+    height: 0.1px;
+    background-color: #c0c0c0;
+    margin-bottom: 20px;
+    margin-top: 20pxTe ;
+}

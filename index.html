@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
 
+<!DOCTYPE html>
+
+
 <head>
     <meta charset="utf-8" />
     <title>Mi Cv HTML</title>
     <link rel="stylesheet" type="text/CSS" href="styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <style>
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
-
-    
+        /* Aquí puedes agregar reglas CSS personalizadas si es necesario */
     </style>
 </head>
 
 <body>
-    <header>
-        <img src="img/foto CV.png" alt="Foto Matias Fernandez" width="100px" height="100px">
-        <nav>
-            <a href="#">Perfil profesional</a>
-            <a href="#">experiencia</a>
-            <a href="#">Formación Academica</a>
-        </nav>
-    </header>
+
+
+
     <main>
-        <section>
+        <section class="nombre">
             <h1>Matias Fernandez Balbierer</h1>
             <h2>Graphic and Digital Designer</h2>
         </section>
 
-        <section>
+            <div class="linea"></div>
+
+        <header class="navbar">
+            <!--<mg src="img/foto CV.png" alt="Foto Matias Fernandez" width="100px" height="100px">*/-->
+            <nav>
+                <a href="#">experiencia laboral</a>
+                <a href="#">Formación Academica</a>
+            </nav>
+        </header>
+        <section class="perfil">
             <h3>Perfil profesional</h3>
 
             <p>Diseñador Gráfico y Digital con más de 5 años de trayectoria transformando conceptos creativos en
@@ -42,11 +50,15 @@
                 marcas a través de un diseño funcional y orientado a la experiencia del usuario.</p>
         </section>
 
-        <article>
+            <div class="linea"></div>
+
+        <article class="experiencia">
             <h3>Experiencia Laboral</h3>
             <h4>Digital Designer & Marketing Analyst</h4>
-            <p>SEIDOR Analytics</p>
-            <p>Abril 2023 - agosto 2025</p>
+            <section class="titulos">
+                <p>SEIDOR Analytics</p>
+                <p>Abril 2023 - agosto 2025</p>
+            </section>
             <ul>
                 <li>Diseño estrategico:</li>
                 <p>Diseño de piezas gráficas orientadas a objetivos de marketing para plataformas digitales alineados a
@@ -65,6 +77,8 @@
                     del embudo de conversión.</p>
             </ul>
 
+                <div class="linea"></div>
+
             <h4>Diseñador Gráfico y Web</h4>
             <p>Grupo Concor</p>
             <p>Septiembre 2022 - Abril 2023</p>
@@ -82,6 +96,8 @@
                 </p>
             </ul>
 
+                            <div class="linea"></div>
+
             <h4>Diseñador Gráfico y Web</h4>
             <p>66 Ecommerce</p>
             <p>Abril 2021 - Julio 2022</p>
@@ -97,6 +113,8 @@
                     de diseño y mailing.</p>
             </ul>
 
+                            <div class="linea"></div>
+
             <h4>Mentor de Programación</h4>
             <p>Gobierno de la Ciudad de Buenos Aires</p>
             <p>Marzo 2020 - Marzo 2021</p>
@@ -110,7 +128,9 @@
             </ul>
         </article>
 
-        <section>
+                        <div class="linea"></div>
+
+        <section class="habilidades">
             <h4>Habilidades</h4>
             <h5>Diseño Gráfico y Digital</h5>
 
@@ -147,15 +167,17 @@
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Mis redes socailes</p>
         <ul>
             <li>
                 <img src="img/linkedin (1).png" alt="Linkedin" height="20px" width="20px">
-                <a href="https://www.linkedin.com/in/matiasbalbierer/" target="_blank">Linkedin</a></li>
+                <a href="https://www.linkedin.com/in/matiasbalbierer/" target="_blank">Linkedin</a>
+            </li>
             <li>
                 <img src="img/behance.png" alt="Behance" height="20px" width="20px">
-                <a href="https://www.behance.net/matiasfernand/" target="_blank"></a>Behance</li>
+                <a href="https://www.behance.net/matiasfernand/" target="_blank"></a>Behance
+            </li>
         </ul>
     </footer>
 </body>
