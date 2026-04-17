@@ -5,3 +5,5 @@ Para eso, planteo crear cajas en la sección "habilidades", donde se destaquen m
 Si bien este es un trabajo académico, mi intención es escalarlo y usarlo como una plataforma real para la búsqueda laboral, ya que actualmente me encuentro desocupado. Por eso, el aspecto profesional y el tratamiento tipográfico son claves en el desarrollo del sitio.
 
 Además, quiero sumar una sección de "portfolio" donde se puedan ver mis principales trabajos de diseño.
+
+Por ultimo, Utilice Visual Studio Code como editor de codigo.
