@@ -4,38 +4,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(19, 20, 18);
 }
 
-h1 {
-    font-family: "Roboto", sans-serif;
-    color: rgb(6, 5, 116);
-    font-size: 2.5rem;
-    line-height: 1rem;
-}
 
 body {
+    background-color: #1a1814;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;    
+    padding: 20px;
 }
 
 main {
-width: 100%;
-max-width: 900px;
-display: flex;
-flex-direction: column;
-gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
 }
+
 header {
     text-align: center;
 }
 
 .navbar {
     font-family: "Space Mono", monospace;
+    background-color: #2e2c28;
 }
+
 
 nav {
     display: flex;
@@ -47,44 +44,56 @@ nav a {
     margin-right: 1rem;
     font-size: 1.2rem;
     font-size: 14px;
+
 }
 
 .navbar nav a {
     text-decoration: none;
     color: #c0c0c0;
-    font-size: 1.9vh;
+    font-size: 1rem;
+    border: 1px solid #c0c0c0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
 
+
+
 .nombre h1 {
-    color: #c0c0c0;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 3rem;
     font-size: 40px;
     color: #ff0202;
-    display: flex;
-    flex-wrap: wrap;
     max-width: 400px;
 }
 
+
 .nombre h2 {
-    color: #c0c0c0;
+
     font-weight: 100;
     font-size: 1.7vh;
     color: #18ad04;
 }
 
 .nombre {
-    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .perfil {
     margin: 2rem;
     color: #c0c0c0;
+    display: flex;
 }
 
 .experiencia {
-    margin: 2rem;
-    color: #c0c0c0;
+    display: flex;
+    color: #c0392b;
+    font-weight: 100;
+    line-height: 2rem;
+    font-size: 13px;
+    gap: 10px;
 }
 
 .habilidades {
@@ -98,27 +107,34 @@ nav a {
     color: #c0c0c0;
 }
 
-.perfil h3 {
-    color: #c0c0c0;
-    font-weight: 700;
-    line-height: 2rem;
+.perfil {
+    display: flex;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
-.perfil p {
+.perfil h3 {
+    color: #c0392b;
+    font-weight: 100;
+    line-height: 2rem;
+    font-size: 13px;
+
+}
+
+p {
     color: #c0c0c0;
     font-size: 13px;
     line-height: 1.5rem;
+    flex-wrap: wrap;
 }
+
 
 .experiencia h3 {
-    color: #c0c0c0; 
-    font-weight: 700;
-    line-height: 4rem;
-}
-
-.experiencia h4 {
-    color: #c0c0c0;    
-    font-weight: 700;
+    color: #c0392b;
+    font-weight: 100;
+    font-size: 13px;
 }
 
 .experiencia p {
@@ -129,14 +145,35 @@ nav a {
 
 .titulos {
     display: flex;
-    justify-self: flex-end;
+    flex-direction: column;
+}
+
+.titulos h4 {
+    color: #c0c0c0;
 }
 
 .linea {
-    width: 100%;
-    max-width: 900px;
-    height: 0.1px;
-    background-color: #c0c0c0;
+    height: 0.5px;
+    background-color: #2e2c28;
     margin-bottom: 20px;
-    margin-top: 20pxTe ;
+    margin-top: 20px;
+    flex: 1;
+}
+
+ul li  {
+    color: #c0c0c0;
+}
+
+.lineadiv {
+    height: 0.5px;
+    background-color: #2e2c28;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.habilidades{
+
+    display: flex;
+    flex-direction: column;
 }
